@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Marketplace Exit Survey</title>
+	<link href="marketplace.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<header>
+		<h1>Marketplace Exit Survey</h1>
+		<h3>Thank You for taking the survey and buying stuff from the marketplace. please answer a couple of questions here before you go</h3>
+	</header>
+	<main>
+		<form>
+			<div>
+				<p>
+				<label>Participant ID
+				<input type="text" name="ID" required>
+				</label> 
+				</p>
+				
+				<p>
+				<label>Age
+				<input type="text" name="age" required>
+				</label> 
+				</p>
+			
+				<p>
+				<label>Some Demographic Info
+				<input type="text" name="demo">
+				</label>
+				</p>
+
+				<p>
+				<label>Some other info
+				<input type="text" name="other">
+				</label>
+				</p>
+			</div>
+			<div>
+				<fieldset>
+				<legend><h2><b>exit survey q1</b></h2></legend>
+				<p><label> <input type="radio" name="opt" value="1"> option 1 </label></p>
+				<p><label> <input type="radio" name="opt" value="2"> option 2 </label></p>
+				<p><label> <input type="radio" name="opt" value="3"> option 3 </label></p>
+				</fieldset>
+
+				<fieldset>
+				<legend><h2><b>exit survey q1</b></h2></legend>
+				<p><label> <input type="checkbox" name="opt2" value="11"> cb 1 </label></p>
+				<p><label> <input type="checkbox" name="opt2" value="22"> cb 2 </label></p>
+				<p><label> <input type="checkbox" name="opt2" value="33"> cb 3 </label></p>
+				</fieldset>
+			</div>
+			<div>
+				<p>
+				<label>comments
+				<textarea name="comments" maxlength="500"></textarea>
+				</label>
+				</p>
+				<p>
+				<label>things you found were imp to mention
+				<textarea name="imp" maxlength="500"></textarea>
+				</label>
+				</p>
+			</div>
+			<button id="accept" autofocus="autofocus" style="width:100%;padding:10px">Finish Survey</button>
+		</form>
+	</main>
+	<br>
+	<footer>
+		<h3>Disclaimer</h3>
+		<p>Put some disclaimer option here. Nobody will be harmed psychologically/ No personal info will be collected - the stuff
+			This study is approved and funded. Some stuff like that</p>
+	</footer>
+</body>
+</html>
