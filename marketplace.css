@@ -78,7 +78,10 @@ table,tr,td{
 
 /*Dont make any changes to above. use IDs to change anything else*/
 
-
+#wemo, #tplink{
+	height:400px;
+	width:400px;
+}
 img{
 	height:50px;
 	width:50px;
